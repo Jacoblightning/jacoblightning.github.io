@@ -1,4 +1,21 @@
+echo "Scanning for accidental passwords..."
+
 git add .
 git commit -am "$1"
+
+gitleaks detect
+if [ $? -ne 0 ];then
+    # Prompt the user for confirmation
+    read -p "Password like data found! If you really want to commit, press y: " choice
+
+    # Check if the user input is not 'y'
+    if [[ "$choice" != "y" ]]; then
+      # Exit the script
+      exit 1
+    fi
+else
+    echo "Safe code detected, pushing."
+fi
+
 git push -u origin main
-echo "The Site will be ready in about 18 seconds"
+echo "The Site will be ready in about 30 seconds"
