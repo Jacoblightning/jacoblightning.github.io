@@ -1,3 +1,4 @@
 git add .
 git commit -am "$1"
 git push -u origin main
+echo "The Site will be ready in about 18 seconds"
