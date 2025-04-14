@@ -2,6 +2,8 @@
 layout: post
 title: "The state of email accounts and providers"
 author: Jacob
+# noinspection YAMLSchemaValidation
+tags: email Google Microsoft Yahoo
 ---
 
 Hello everyone. This is my first post here (yay!) and so let's get into it.
