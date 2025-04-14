@@ -2,6 +2,8 @@
 
 ---
 
+<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+
 # Hello
 and welcome to my site.
 
@@ -13,7 +15,9 @@ I might occasionally come here to write/rant about privacy, security, open sourc
 
 Anyway, here is the link to my [blog](/blog) and here is the link to the [about me](https://github.com/Jacoblightning/jacoblightning/blob/main/README.md) page.
 
-If you want to contact me (for some reason) you can view methods [here](/contact)
+If you want to contact me (for some reason) you can view methods [here](/contact) (I am not guaranteed to respond.)
+
+Finally, [here](/feed.xml) is an XML feed for RSS readers.
 
 ## Disclaimer
 This is a site for me to ramble on about my own opinion. Please don't get angry if you don't agree
