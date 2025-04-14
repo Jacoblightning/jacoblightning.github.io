@@ -34,3 +34,5 @@ I didn't want to rely on some obscure provider though so I looked up what might 
 As it turns out (which they don't mention anywhere on the email creation page), [you can't create an email with the word
 "contact" in it](https://answers.microsoft.com/en-us/outlook_com/forum/all/email-account-outlookcom-doesnt-exist-but-isnt/050f04d1-6edf-4e61-b17e-9dd0b8fafdde).
 So, after learning this delightful fact I went back to Outlook and successfully made an account.
+
+[Part 2]({% post_url 2025-04-14-Email-accounts-and-providers-part-2 %})
